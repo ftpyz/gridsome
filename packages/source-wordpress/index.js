@@ -112,6 +112,7 @@ class WordPressSource {
           slug: term.slug,
           content: term.description,
           meta: term.meta,
+          acf:term.acf,
           count: term.count
         })
       }
